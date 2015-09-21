@@ -1,0 +1,11 @@
+D:\projects\BelaExam\code\Test\Unit\bin\Debug\Unit.dll
+D:\projects\BelaExam\code\Test\Unit\bin\Debug\Unit.pdb
+D:\projects\BelaExam\code\Test\Unit\bin\Debug\BelaLogApplication.exe
+D:\projects\BelaExam\code\Test\Unit\bin\Debug\Moq.dll
+D:\projects\BelaExam\code\Test\Unit\bin\Debug\nunit.framework.dll
+D:\projects\BelaExam\code\Test\Unit\bin\Debug\BelaLogApplication.pdb
+D:\projects\BelaExam\code\Test\Unit\bin\Debug\Moq.xml
+D:\projects\BelaExam\code\Test\Unit\bin\Debug\nunit.framework.xml
+D:\projects\BelaExam\code\Test\Unit\obj\Debug\Unit.csprojResolveAssemblyReference.cache
+D:\projects\BelaExam\code\Test\Unit\obj\Debug\Unit.dll
+D:\projects\BelaExam\code\Test\Unit\obj\Debug\Unit.pdb

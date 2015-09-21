@@ -1,0 +1,12 @@
+D:\projects\BelaExam\code\BelaLogApplication\BelaLogApplication\bin\Debug\BelaLogApplication.exe.config
+D:\projects\BelaExam\code\BelaLogApplication\BelaLogApplication\bin\Debug\BelaLogApplication.exe
+D:\projects\BelaExam\code\BelaLogApplication\BelaLogApplication\bin\Debug\BelaLogApplication.pdb
+D:\projects\BelaExam\code\BelaLogApplication\BelaLogApplication\obj\Debug\BelaLogApplication.csprojResolveAssemblyReference.cache
+D:\projects\BelaExam\code\BelaLogApplication\BelaLogApplication\obj\Debug\BelaLogApplication.exe
+D:\projects\BelaExam\code\BelaLogApplication\BelaLogApplication\obj\Debug\BelaLogApplication.pdb
+D:\projects\BelaExam\code\BelaLogApplication\bin\Debug\BelaLogApplication.exe.config
+D:\projects\BelaExam\code\BelaLogApplication\obj\Debug\BelaLogApplication.exe
+D:\projects\BelaExam\code\BelaLogApplication\obj\Debug\BelaLogApplication.pdb
+D:\projects\BelaExam\code\BelaLogApplication\bin\Debug\BelaLogApplication.exe
+D:\projects\BelaExam\code\BelaLogApplication\bin\Debug\BelaLogApplication.pdb
+D:\projects\BelaExam\code\BelaLogApplication\obj\Debug\BelaLogApplication.csprojResolveAssemblyReference.cache

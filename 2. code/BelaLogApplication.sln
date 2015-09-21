@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelaLogApplication", "BelaLogApplication\BelaLogApplication.csproj", "{9989E819-A063-43FF-92A1-06BC46AC4496}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{45AB50A0-B616-40B1-921D-E7B5B91C9C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit", "Test\Unit\Unit.csproj", "{BFAB0CB0-5F3E-453E-ACA8-850A7D368899}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9989E819-A063-43FF-92A1-06BC46AC4496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9989E819-A063-43FF-92A1-06BC46AC4496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9989E819-A063-43FF-92A1-06BC46AC4496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9989E819-A063-43FF-92A1-06BC46AC4496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAB0CB0-5F3E-453E-ACA8-850A7D368899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAB0CB0-5F3E-453E-ACA8-850A7D368899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAB0CB0-5F3E-453E-ACA8-850A7D368899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAB0CB0-5F3E-453E-ACA8-850A7D368899}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFAB0CB0-5F3E-453E-ACA8-850A7D368899} = {45AB50A0-B616-40B1-921D-E7B5B91C9C6C}
+	EndGlobalSection
+EndGlobal

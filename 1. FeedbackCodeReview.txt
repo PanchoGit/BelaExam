@@ -1,0 +1,36 @@
+
+1. Parameters and private fields should have a better description name between target log (logToFile, logToConsole, logToDatabase) and level (Message, Warning, Error) in order to avoid confusing in the implementation. It can be renamed with the prefix 'Target' or 'Level'.
+
+2. Parameters should be a enum type like following:
+	- logToFile, logToConole, logToDatabase --> Target.File, Target.Console, Target.DataBase or in the case of multiple target a TargetParamters class with boolean properties.
+	- logMessage, logWarning, logError --> Level.Message, Level.Warning, Level.Error
+
+3. Standard name need to be consistent, LogToDatabase should be renamed to _logToDatabase in order to follow a pattern.
+
+4. This class should implement an interface in order to support dependency injection and te be more flexible to mock it in unit tests. Also we have to remove static class.
+
+5. Logger service should be a singleton.
+
+6. Static LogMessage: method have duplicated name (message).
+
+7. Static LogMessage: message.Trim() is not working because Trim return the procesed string.
+
+8. Static LogMessage: Empty message validation should be used before doing the trim in order to avoid NullReference and we need to use string.IsNullOrWhiteSpace instead of two conditional.
+
+9. Static LogMessage: Exceptions messages should have a better description. 
+
+10. Static LogMessage: The database connection is never closed.
+
+11. Static LogMessage: Database operation should be placed in another place and need to be accesed with interface in order to support dependency injection and mock it in unit test.
+
+12. Static LogMessage: We need to pass parameter to the SQL with SqlParamater in order to protect from SQLInjection attack.
+
+13. Static LogMessage: File handling should be placed in another place and need to be accesed via interface in order to support dependency injection and mock it in unit test.
+
+14. Static LogMessage: Local variables should be initialized (t and l) and should have a better description.
+
+15. Static LogMessage: File string concatenation should be replaced with Path.combine();
+
+16. Static LogMessage: File name should be initialized only one time.
+
+17. Static LogMessage: In this case added line to the log file is the same for all levels so we need to remove all level condition and let only one operation: l = l + DateTime.Now.ToShortDateString() + message; 
